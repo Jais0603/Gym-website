@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Fitness Life</title>
+</head>
+<link rel="stylesheet" type="text/css" href="gymstyle.css ">
+
+<style>
+
+/*	css reset*/
+
+body{
+	color: white;
+	margin: 0px;
+	padding:0px;
+	background: url('trainingrope.jpg');
+	background-repeat: no repeat;
+	background-size: cover;
+	font-family: 'Baloo Bhai', cursive;
+/*	background-position: center;*/
+}
+	.left{
+		position: absolute;
+		left: 32px;
+		top: 20px;
+		display: inline-block;
+/*		border: 2px solid lightslategray;*/
+		text-align: center;
+		line-height: 20px;
+}
+	.left img{
+		width: 116px;
+/*	filter: invert(10%);*/
+	}
+	.mid{
+		display: block;
+		width: 50%;
+		margin: 20px auto;
+/*		border: 2px solid lightslategray;*/
+	}
+	.right{
+		position: absolute;
+		right: 34px;
+		top: 33px;
+		display: inline-block;
+/*		border: 2px solid lightslategray;*/
+	}
+	.navbar{
+		display: inline-block;
+	}
+	.navbar li{
+		color: white;
+		display: inline-block;
+		font-size: 25px;
+	}
+	.navbar li a{
+		color: white;
+		text-decoration: none;
+		padding: 34px 23px;
+	}
+
+	.navbar li a:hover , .navbar li a:active{
+		text-decoration: underline;
+		color: grey;
+	}
+	.btn{
+		margin: 0px 9px;
+		color: white;
+		background-color: black;
+		padding: 4px 14px;
+/*		border: 2px solid grey;*/
+		border-radius: 6px;
+		font-size: 20px;
+		cursor: pointer;
+		font-family:cursive;
+		text-align: center;
+	}
+	.btn:hover{
+		background-color: grey;
+	}
+
+	.container{
+/*		border: 2px solid grey;*/
+			margin: 100px 50px;
+			padding: 72px 62px;
+			width: 33%;
+			border-radius: 6px;
+			position: absolute;
+			right: 34px;
+			top: 33px;
+	}
+
+	.form-group input{
+
+		font-size: 14px;
+		margin: 10px auto ;
+		text-align: center;
+		display: block;
+		padding:10px;
+/*		border: 2px solid grey;*/
+		font-family: cursive;
+		border-radius: 6px;
+		font-size: 14px;
+
+	}
+	.form-group.hover{
+		background-color: peru;
+	}
+	.container h1{
+		text-align: center;
+	}
+	.container button{
+		display: block;
+		margin: auto;
+		width: 23%;
+	}
+
+
+
+</style>
+
+<body>
+		<header class="header">
+
+			<!-- Left box for logo -->
+			<div class="left">
+				<img src="vector-dumbbell-icon.webp">
+					<div>Fitness Life</div>
+			</div>
+			<!-- Mid box for navbar-->
+			<div class="mid">
+					<ul class="navbar">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Location</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+			</div>
+			<!-- Right box for buttons -->
+			<div class=" right">
+					<button class="btn">Call Now</button>
+					
+					<button class="btn">Email-us</button>
+			</div>
+
+		</header>
+
+		<div class=" container">
+				<h1>Join the best GYM in your area</h1>
+				<form action="noaction.sql">
+					<div class="form-group">
+						<input type="text" name="" placeholder="Enter Your First Name">
+					</div>
+
+					<div class="form-group">
+						<input type="text" name="" placeholder="Enter Your Last Name">
+					</div>
+
+					<div class="form-group">
+						<input type="number" name="" placeholder="Enter Your Age">
+					</div>
+					<div class="form-group">
+						<input type="text" name="" placeholder="Enter Your Gender">
+
+					<div class="form-group">
+						<input type="number" name="" placeholder="Enter Your Mobile Number">
+					</div>
+
+					<div class="form-group">
+						<input type="text" name="" placeholder="Enter Your Locality">
+
+					<div class="form-group">
+						<input type="text" name="" placeholder="Enter Your Email-id">
+					</div>
+					<br>
+					<button class="btn">Submit</button>
+			</form>
+
+</body>
+</html>
